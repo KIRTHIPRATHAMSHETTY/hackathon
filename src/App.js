@@ -1,15 +1,16 @@
+import React from 'react'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
-import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-
-function App() {
+const App = () => {
   return (
-    <div className="text-white">
-     <Header/>
-     <Footer/>
+    <div>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

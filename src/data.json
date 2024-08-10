@@ -1,0 +1,151 @@
+{
+  "disasters": [
+    {
+      "id": 1,
+      "type": "Hurricane",
+      "description": "Hurricanes are powerful tropical storms with strong winds and heavy rain. Proper preparation is key to minimizing damage.",
+      "preparationTips": [
+        "Create an emergency kit with essential supplies.",
+        "Know your evacuation routes and shelters.",
+        "Secure your home by boarding up windows and reinforcing doors."
+      ],
+      "response": "During a hurricane, stay indoors and away from windows. If you are in a flood-prone area, move to higher ground."
+    },
+    {
+      "id": 2,
+      "type": "Earthquake",
+      "description": "Earthquakes are sudden, violent shaking of the ground, often causing widespread damage. Preparedness can save lives.",
+      "preparationTips": [
+        "Secure heavy furniture and objects that could fall.",
+        "Identify safe spots in each room, such as under sturdy tables.",
+        "Create a family emergency plan and practice 'Drop, Cover, and Hold On.'"
+      ],
+      "response": "During an earthquake, drop to your hands and knees, cover your head and neck, and hold on to a sturdy object until the shaking stops."
+    },
+    {
+      "id": 3,
+      "type": "Flood",
+      "description": "Floods can result from heavy rain, storm surges, or rapid snowmelt. Proper preparation and timely response can reduce risk.",
+      "preparationTips": [
+        "Know your flood risk and sign up for emergency alerts.",
+        "Prepare a waterproof emergency kit and keep important documents safe.",
+        "Avoid building in flood-prone areas."
+      ],
+      "response": "During a flood, move to higher ground immediately. Avoid walking or driving through floodwaters."
+    },
+    {
+      "id": 4,
+      "type": "Wildfire",
+      "description": "Wildfires can spread rapidly, consuming everything in their path. Preparedness and quick action are essential.",
+      "preparationTips": [
+        "Create a defensible space around your home by clearing brush and vegetation.",
+        "Have an emergency kit ready, including respirators or masks.",
+        "Know your community's evacuation routes and plans."
+      ],
+      "response": "If a wildfire is approaching, evacuate immediately if advised. Stay informed about the fire's progress through official channels."
+    },
+    {
+      "id": 5,
+      "type": "Tornado",
+      "description": "Tornadoes are violent windstorms characterized by a twisting, funnel-shaped cloud. Quick response and preparation are crucial.",
+      "preparationTips": [
+        "Identify a safe room or storm shelter in your home.",
+        "Create an emergency kit with essentials like water, food, and first aid.",
+        "Stay informed about weather conditions via alerts and radio."
+      ],
+      "response": "If a tornado warning is issued, go to your safe room or storm shelter immediately. If you are outside, lie flat in a low-lying area and cover your head."
+    },
+    {
+      "id": 6,
+      "type": "Blizzard",
+      "description": "Blizzards are severe snowstorms with high winds and low visibility. Preparation and staying indoors are key to safety.",
+      "preparationTips": [
+        "Stock up on food, water, and other essentials before the storm hits.",
+        "Have a reliable source of heat, such as a fireplace or space heater.",
+        "Keep extra blankets and warm clothing readily available."
+      ],
+      "response": "During a blizzard, stay indoors and avoid travel. Keep warm and monitor local weather reports for updates."
+    },
+    {
+      "id": 7,
+      "type": "Heatwave",
+      "description": "Heatwaves are prolonged periods of excessively hot weather, often accompanied by high humidity. Proper hydration and cooling are essential.",
+      "preparationTips": [
+        "Stay hydrated by drinking plenty of water.",
+        "Avoid strenuous activities during the hottest part of the day.",
+        "Use fans or air conditioning to stay cool, and check on vulnerable individuals."
+      ],
+      "response": "During a heatwave, stay indoors in air-conditioned spaces as much as possible. If you must go outside, wear light clothing and stay in the shade."
+    }
+  ],
+  "communicationChannels": [
+    {
+      "id": 1,
+      "name": "Emergency Alerts",
+      "description": "Receive real-time alerts on your mobile device for natural disasters in your area."
+    },
+    {
+      "id": 2,
+      "name": "Community Hotlines",
+      "description": "Call local hotlines for updates, assistance, and to report emergencies during disasters."
+    },
+    {
+      "id": 3,
+      "name": "Social Media",
+      "description": "Follow official social media channels for the latest information and community support."
+    },
+    {
+      "id": 4,
+      "name": "Radio Broadcasts",
+      "description": "Tune in to local radio stations for continuous updates during power outages."
+    },
+    {
+      "id": 5,
+      "name": "Public Announcement Systems",
+      "description": "Listen to loudspeaker announcements in public areas for evacuation instructions and updates."
+    },
+    {
+      "id": 6,
+      "name": "Emergency SMS Services",
+      "description": "Sign up for SMS notifications that provide critical information during emergencies."
+    }
+  ],
+  "educationResources": [
+    {
+      "id": 1,
+      "title": "Disaster Preparedness 101",
+      "link": "https://example.com/preparedness101",
+      "description": "A comprehensive guide to understanding and preparing for different types of natural disasters."
+    },
+    {
+      "id": 2,
+      "title": "First Aid Basics",
+      "link": "https://example.com/firstaidbasics",
+      "description": "Learn essential first aid skills that could save lives during a disaster."
+    },
+    {
+      "id": 3,
+      "title": "Creating a Family Emergency Plan",
+      "link": "https://example.com/emergencyplan",
+      "description": "Step-by-step instructions on how to create and practice a family emergency plan."
+    },
+    {
+      "id": 4,
+      "title": "Evacuation Planning for Pets",
+      "link": "https://example.com/petevacuation",
+      "description": "A guide to ensuring your pets are safe and accounted for during an evacuation."
+    },
+    {
+      "id": 5,
+      "title": "Emergency Communication Strategies",
+      "link": "https://example.com/emergencycommunication",
+      "description": "Learn how to stay connected with family and friends during a disaster."
+    },
+    {
+      "id": 6,
+      "title": "Home Safety Inspection Checklist",
+      "link": "https://example.com/safetychecklist",
+      "description": "A checklist to help you identify and mitigate potential hazards in your home before a disaster strikes."
+    }
+  ]
+}
