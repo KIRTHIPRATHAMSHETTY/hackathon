@@ -143,6 +143,11 @@ const Main = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {data.disasters.map(disaster => (
               <div key={disaster.id} className="bg-white p-6 rounded-lg shadow-lg">
+                  <img 
+          src={process.env.PUBLIC_URL + disaster.image} 
+          alt={disaster.type} 
+          className="w-full h-48 object-cover rounded mb-4"
+        />
                 <h3 className="text-2xl font-bold text-green-500 mb-4">{disaster.type}</h3>
                 <p className="text-gray-600 mb-4">{disaster.description}</p>
                 <h4 className="text-xl font-semibold text-gray-800 mb-2">Preparation Tips:</h4>

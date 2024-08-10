@@ -2,6 +2,7 @@
   "disasters": [
     {
       "id": 1,
+        "image": "/images/hurricane.jpg",
       "type": "Hurricane",
       "description": "Hurricanes are powerful tropical storms with strong winds and heavy rain. Proper preparation is key to minimizing damage.",
       "preparationTips": [
@@ -13,7 +14,9 @@
     },
     {
       "id": 2,
+      "image": "/images/earthquake.jpeg",
       "type": "Earthquake",
+      
       "description": "Earthquakes are sudden, violent shaking of the ground, often causing widespread damage. Preparedness can save lives.",
       "preparationTips": [
         "Secure heavy furniture and objects that could fall.",
@@ -24,6 +27,7 @@
     },
     {
       "id": 3,
+      "image": "/images/flood.jpg",
       "type": "Flood",
       "description": "Floods can result from heavy rain, storm surges, or rapid snowmelt. Proper preparation and timely response can reduce risk.",
       "preparationTips": [
@@ -36,6 +40,7 @@
     {
       "id": 4,
       "type": "Wildfire",
+      "image": "/images/wildfire.jpeg",
       "description": "Wildfires can spread rapidly, consuming everything in their path. Preparedness and quick action are essential.",
       "preparationTips": [
         "Create a defensible space around your home by clearing brush and vegetation.",
@@ -47,6 +52,7 @@
     {
       "id": 5,
       "type": "Tornado",
+      "image": "/images/tornado.jpeg",
       "description": "Tornadoes are violent windstorms characterized by a twisting, funnel-shaped cloud. Quick response and preparation are crucial.",
       "preparationTips": [
         "Identify a safe room or storm shelter in your home.",
@@ -58,6 +64,7 @@
     {
       "id": 6,
       "type": "Blizzard",
+      "image": "/images/blizzard.jpg",
       "description": "Blizzards are severe snowstorms with high winds and low visibility. Preparation and staying indoors are key to safety.",
       "preparationTips": [
         "Stock up on food, water, and other essentials before the storm hits.",
@@ -69,6 +76,7 @@
     {
       "id": 7,
       "type": "Heatwave",
+      "image": "/images/heatwave.jpeg",
       "description": "Heatwaves are prolonged periods of excessively hot weather, often accompanied by high humidity. Proper hydration and cooling are essential.",
       "preparationTips": [
         "Stay hydrated by drinking plenty of water.",
@@ -114,37 +122,37 @@
     {
       "id": 1,
       "title": "Disaster Preparedness 101",
-      "link": "https://example.com/preparedness101",
+      "link": "https://emergency.baltimorecity.gov/be-prepared#:~:text=Build%20a%20Kit,the%20event%20of%20an%20emergency",
       "description": "A comprehensive guide to understanding and preparing for different types of natural disasters."
     },
     {
       "id": 2,
       "title": "First Aid Basics",
-      "link": "https://example.com/firstaidbasics",
+      "link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html",
       "description": "Learn essential first aid skills that could save lives during a disaster."
     },
     {
       "id": 3,
       "title": "Creating a Family Emergency Plan",
-      "link": "https://example.com/emergencyplan",
+      "link": "https://www.habitat.org/our-work/disaster-response/disaster-preparedness-homeowners/family-preparedness-plan",
       "description": "Step-by-step instructions on how to create and practice a family emergency plan."
     },
     {
       "id": 4,
       "title": "Evacuation Planning for Pets",
-      "link": "https://example.com/petevacuation",
+      "link": "https://www.humanesociety.org/resources/pet-disaster-preparedness",
       "description": "A guide to ensuring your pets are safe and accounted for during an evacuation."
     },
     {
       "id": 5,
       "title": "Emergency Communication Strategies",
-      "link": "https://example.com/emergencycommunication",
+      "link": "https://publichealth.tulane.edu/blog/developing-disaster-communication-plan/",
       "description": "Learn how to stay connected with family and friends during a disaster."
     },
     {
       "id": 6,
       "title": "Home Safety Inspection Checklist",
-      "link": "https://example.com/safetychecklist",
+      "link": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/household-safety-checklist",
       "description": "A checklist to help you identify and mitigate potential hazards in your home before a disaster strikes."
     }
   ]
