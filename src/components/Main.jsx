@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Data from "../data.json";
-
+import SignUp from './SignUp';
 // Replace with your actual OpenWeatherMap API key
 const API_KEY = '9a34b8e2ff4c8ab44d30c03ed5f22013';
 
@@ -21,6 +21,7 @@ const Main = () => {
   const [weather, setWeather] = useState(null);
   const [manualWeather, setManualWeather] = useState('');
   const [icon, setIcon] = useState('');
+  const [showSignUp, setShowSignUp] = useState(false); // Moved here
 
   const weatherVideos = {
     clear: `${process.env.PUBLIC_URL}/videos/clear.gif`,
@@ -99,6 +100,10 @@ const Main = () => {
 
   const videoSrc = weather ? weatherVideos[weather] : '';
 
+  const handleSignUpClick = () => {
+    setShowSignUp(true);
+  };
+
   return (
     <div className="text-gray-900 min-h-screen flex flex-col p-8 relative">
       {videoSrc && (
@@ -112,21 +117,21 @@ const Main = () => {
       )}
       <div className="relative z-10">
         <div className="flex items-center mb-4">
-          <p className="text-xl">Current Weather: {weather || 'Manual Entry'}</p>
+          <p className="text-3xl font-bold">Current Weather: {weather || 'Manual Entry'}</p>
           {icon && <img src={icon} alt="Weather Icon" className="ml-4 w-16 h-16" />}
         </div>
 
-        <input
-          type="text"
-          value={manualWeather}
-          onChange={handleManualWeatherChange}
-          placeholder="Enter weather manually (e.g., clear, rain)"
-          className="p-2 border rounded border-gray-300 bg-gray-800 text-white placeholder-gray-500 mb-8"
-        /> 
-
+  
+  <button className='text-lg rounded p-2 my-5 bg-gray-600 text-white' onClick={handleSignUpClick}>SIGN UP</button><br></br>
         {/* Communication Channels Section */}
         <section id="communication" className="mb-12">
-          <h2 className="text-3xl font-semibold text-brown-700 mb-6">Communication Channels <button className=' text-lg rounded p-2 bg-gray-600 text-white'>Signup</button></h2>
+       
+          <h2 className="text-3xl font-semibold text-brown-700 mb-6">
+            Communication Channels 
+          
+             {/* Conditionally render SignUp component */}
+        {showSignUp && <SignUp />}
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {data.communicationChannels.map(channel => (
               <div key={channel.id} className="bg-white p-6 rounded-lg shadow-lg">
@@ -137,17 +142,18 @@ const Main = () => {
           </div>
         </section>
 
+
         {/* Disasters Section */}
         <section id="disasters" className="mb-12">
           <h2 className="text-3xl font-semibold text-brown-700 mb-6">Disasters</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {data.disasters.map(disaster => (
               <div key={disaster.id} className="bg-white p-6 rounded-lg shadow-lg">
-                  <img 
-          src={process.env.PUBLIC_URL + disaster.image} 
-          alt={disaster.type} 
-          className="w-full h-48 object-cover rounded mb-4"
-        />
+                <img 
+                  src={process.env.PUBLIC_URL + disaster.image} 
+                  alt={disaster.type} 
+                  className="w-full h-48 object-cover rounded mb-4"
+                />
                 <h3 className="text-2xl font-bold text-green-500 mb-4">{disaster.type}</h3>
                 <p className="text-gray-600 mb-4">{disaster.description}</p>
                 <h4 className="text-xl font-semibold text-gray-800 mb-2">Preparation Tips:</h4>
